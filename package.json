@@ -22,6 +22,7 @@
     "eslint": ">= 8"
   },
   "dependencies": {
+    "@greenlight-coop/prettier-config-greenlight": "^0.1.1",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.12.0",
     "eslint": "^8.10.0",
@@ -35,5 +36,6 @@
   },
   "devDependencies": {
     "node-noop": "^1.0.0"
-  }
+  },
+  "prettier": "@greenlight-coop/prettier-config-greenlight"
 }
