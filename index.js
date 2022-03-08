@@ -65,15 +65,7 @@ module.exports = {
         "tsx": "never"
       }
     ],
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        "devDependencies": [
-          "features/**/*.ts",
-          "test/**/*.ts"
-        ]
-      }
-    ],
+    "import/no-extraneous-dependencies": "off",
     "no-multiple-empty-lines": [
       "warn",
       {
