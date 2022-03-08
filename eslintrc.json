@@ -1,4 +1,4 @@
-module.exports = {
+{
   "env": {
     "es2021": true,
     "node": true,
@@ -72,6 +72,7 @@ module.exports = {
         "max": 1
       }
     ],
+    "no-shadow": "off",
     "no-use-before-define": "off",
     "no-useless-constructor": "off",
     "prettier/prettier": "error",
@@ -85,6 +86,7 @@ module.exports = {
     ],
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": "error",
+    "@typescript-eslint/no-shadow": "error",
     "unicorn/filename-case": [
       "error",
       {

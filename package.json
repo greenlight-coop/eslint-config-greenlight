@@ -2,7 +2,7 @@
   "name": "@greenlight-coop/eslint-config-greenlight",
   "version": "0.1.2",
   "description": "Standard eslint rules for Green Light projects",
-  "main": "index.js",
+  "main": "eslintrc.json",
   "scripts": {
     "build-clean": "npm run noop",
     "noop": "node -e \"require('node-noop').noop\"",
