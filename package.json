@@ -24,8 +24,8 @@
   "dependencies": {
     "@greenlight-coop/prettier-config-greenlight": "^0.1.1",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
-    "@typescript-eslint/parser": "^5.12.0",
-    "eslint": "^8.10.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^8.11.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.4",
