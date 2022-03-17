@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/greenlight-coop/eslint-config-greenlight.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "keywords": [],
   "author": "Green Light Software Cooperative",
   "bugs": {
