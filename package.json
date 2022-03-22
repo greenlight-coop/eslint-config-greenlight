@@ -3,8 +3,15 @@
   "version": "0.1.6",
   "description": "Standard eslint rules for Green Light projects",
   "main": "eslintrc.json",
+  "files": [
+    "eslintrc.json",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "build-clean": "npm run noop",
+    "lint": "eslint --ext ts --config eslintrc.json .",
+    "lint:fix": "npm run lint -- --fix",
     "noop": "node -e \"require('node-noop').noop\"",
     "qc": "npm audit"
   },
