@@ -3,8 +3,15 @@
   "version": "0.1.6",
   "description": "Standard eslint rules for Green Light projects",
   "main": "eslintrc.json",
+  "files": [
+    "eslintrc.json",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "build-clean": "npm run noop",
+    "lint": "eslint --ext ts --config eslintrc.json .",
+    "lint:fix": "npm run lint -- --fix",
     "noop": "node -e \"require('node-noop').noop\"",
     "qc": "npm audit"
   },
@@ -26,15 +33,15 @@
   },
   "dependencies": {
     "@greenlight-coop/prettier-config-greenlight": "^0.1.1",
-    "@typescript-eslint/eslint-plugin": "^5.13.0",
-    "@typescript-eslint/parser": "^5.15.0",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
     "eslint": ">= 8",
-    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "eslint-plugin-unicorn": "^41.0.0",
+    "eslint-plugin-unicorn": "^41.0.1",
     "eslint-plugin-unused-imports": "^2.0.0"
   },
   "devDependencies": {
