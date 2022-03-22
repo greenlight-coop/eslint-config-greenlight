@@ -6,7 +6,7 @@
   "scripts": {
     "build-clean": "npm run noop",
     "noop": "node -e \"require('node-noop').noop\"",
-    "qc": "npm run noop"
+    "qc": "npm audit"
   },
   "repository": {
     "type": "git",
@@ -28,10 +28,10 @@
     "@greenlight-coop/prettier-config-greenlight": "^0.1.1",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.15.0",
-    "eslint": "^8.11.0",
-    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint": ">= 8",
+    "eslint-config-airbnb-base": "^14.1.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-unicorn": "^41.0.0",
