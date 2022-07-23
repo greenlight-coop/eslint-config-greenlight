@@ -1,6 +1,6 @@
 {
   "name": "@greenlight-coop/eslint-config-greenlight",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Standard eslint rules for Green Light projects",
   "main": "eslintrc.json",
   "files": [
