@@ -105,6 +105,14 @@
     "unicorn/prefer-node-protocol": "off",
     "unused-imports/no-unused-imports": "error"
   },
+  "overrides": [
+    {
+      "files": ["*-controller.ts"],
+      "rules": {
+        "@typescript-eslint/explicit-module-boundary-types": "off"
+      }
+    }
+  ],
   "settings": {
     "import/resolver": {
       "node": {
