@@ -12,7 +12,10 @@
     "plugin:unicorn/recommended",
     "prettier"
   ],
-  "ignorePatterns": ["dist/**"],
+  "ignorePatterns": [
+    "dist/**",
+    "src/generated/**"
+  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "sourceType": "module"
