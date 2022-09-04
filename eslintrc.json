@@ -35,14 +35,8 @@
         "allowHigherOrderFunctions": true
       }
     ],
-    "@typescript-eslint/indent": [
-      "error",
-      2,
-      {
-        "ignoredNodes": ["TSTypeParameterInstantiation"],
-        "SwitchCase": 1
-      }
-    ],
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/no-shadow": "error",
     "@typescript-eslint/no-use-before-define": [
       "error"
     ],
@@ -89,7 +83,6 @@
     ],
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": "error",
-    "@typescript-eslint/no-shadow": "error",
     "unicorn/filename-case": [
       "error",
       {
@@ -124,7 +117,7 @@
   },
   "overrides": [
     {
-      "files": ["*-controller.ts"],
+      "files": ["*controller.ts"],
       "rules": {
         "@typescript-eslint/explicit-module-boundary-types": "off"
       }
