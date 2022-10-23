@@ -13,7 +13,10 @@
     "lint": "eslint --ext ts --config eslintrc.json .",
     "lint:fix": "npm run lint -- --fix",
     "noop": "node -e \"require('node-noop').noop\"",
-    "qc": "npm audit"
+    "qc": "npm audit",
+    "snyk:code-test": "snyk code test --fail-on=all",
+    "snyk:package-test": "snyk test --fail-on=all",
+    "snyk:test": "npm run snyk:code-test && npm run snyk:package-test"
   },
   "repository": {
     "type": "git",
